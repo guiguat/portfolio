@@ -39,6 +39,14 @@ button.navbar-toggler{
     border:0;
     outline: none;
 }
+#img-eu{
+    height: 20rem;
+    border-radius: 160px;
+}
+.about{
+    align-items: center;
+    padding: 5rem 10rem!important;
+}
 @media (max-width:984px){
     #illustration{
         display: none;
@@ -52,5 +60,11 @@ button.navbar-toggler{
     .presentation-p{
         font-size: 1.2rem;
         margin: 1rem 0rem;
+    }
+    .mobile-none{
+        display: none;
+    }
+    .about{
+        padding: 2rem!important;
     }
 }
