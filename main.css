@@ -7,7 +7,7 @@
 }
 .header{
     background-color: #6D20D6;  
-    background: linear-gradient(0deg, rgba(168,41,212,1) 0%, rgba(109,32,214,1) 100%);
+    background: linear-gradient(0deg, rgb(162, 31, 223) 0%, rgba(109,32,214,1) 100%);
     padding: 1rem 5rem!important;
 }
 #navbarNav{
