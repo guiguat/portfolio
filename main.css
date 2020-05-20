@@ -31,9 +31,23 @@ nav{
     font-size: 1.5rem;
     margin: 1rem 0rem;
 }
-.presentation-icons a{
-    padding-right: 2rem;
+
+.email-link, .icon{
+    color: white;
 }
+
+.email-link:hover, .icon:hover{
+    color: #C1C1C1
+} 
+
+.icon-dark{
+    color:white 
+}
+
+.icon-dark:hover{
+    color: rgb(50, 10, 83)
+} 
+
 button.navbar-toggler{
     padding:0;
     border:0;
@@ -43,9 +57,9 @@ button.navbar-toggler{
     height: 20rem;
     border-radius: 160px;
 }
-.about{
+#about, #hobbies{
     align-items: center;
-    padding: 5rem 10rem!important;
+    padding: 4rem 10rem!important;
 }
 .card-link{
     color:#6D20D6;
@@ -54,10 +68,16 @@ button.navbar-toggler{
 .card-link:hover{
     color:rgb(68, 22, 133);
 }
+
+footer{
+    background-color: #1C1623;
+    padding: 3rem;
+}
+a{
+    text-decoration: none;
+}
+
 @media (max-width:984px){
-    #illustration{
-        display: none;
-    }
     .header{
         padding: 1rem 1.5rem 1rem!important;
     }
@@ -71,7 +91,7 @@ button.navbar-toggler{
     .mobile-none{
         display: none;
     }
-    .about{
+    #about, #hobbies{
         padding: 2rem!important;
     }
 }
