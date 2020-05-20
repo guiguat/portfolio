@@ -47,6 +47,13 @@ button.navbar-toggler{
     align-items: center;
     padding: 5rem 10rem!important;
 }
+.card-link{
+    color:#6D20D6;
+    font-weight: bold;
+}
+.card-link:hover{
+    color:rgb(68, 22, 133);
+}
 @media (max-width:984px){
     #illustration{
         display: none;
