@@ -5,6 +5,10 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.loading{
+    color:#616161;
+    font-weight: 500;
+}
 .header{
     background-color: #6D20D6;  
     background: linear-gradient(0deg, rgb(162, 31, 223) 0%, rgba(109,32,214,1) 100%);
