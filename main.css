@@ -90,10 +90,29 @@ button.navbar-toggler{
     align-items: center;
     justify-content: center;
 }
+.name{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.nameRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+}
+.email-link{
+    font-weight: 400;
+    font-size: 15px;
+}
 
 footer{
     background-color: #1C1623;
-    padding: 3rem;
+    padding: 1rem 5rem!important;
+
 }
 a{
     text-decoration: none;
