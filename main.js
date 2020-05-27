@@ -35,7 +35,7 @@ $(document).ready(function () {
                                 </div>                                
                                 <span class="language"> ${repo.language}</span>                                
                             </div>
-                            <p class="text-left">
+                            <p class="card-left">
                             ${repo.description}
                             </p>
                             <a href="${repo.html_url}" target="_blank" class="card-link">Github</a>
