@@ -43,7 +43,7 @@ $(document).ready(function () {
                     </div>
                 </div>
                 `
-                $("#repos").prepend((repo.homepage !== "")?contentHomepage:content);
+                $("#repos").prepend((repo.homepage !== "" && repo.homepage !== null)?contentHomepage:content);
             });
        }
    });
