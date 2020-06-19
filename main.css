@@ -67,7 +67,7 @@ button.navbar-toggler{
 }
 .card-link{
     color:#6D20D6;
-    font-weight: bold;
+    font-weight: 500;
 }
 .card-link:hover{
     color:rgb(68, 22, 133);
@@ -109,13 +109,23 @@ button.navbar-toggler{
     font-size: .8rem;
 }
 
+#goProjects{
+    cursor: pointer;
+    color: #6D20D6;
+    font-weight: 500;
+}
+#goProjects:hover{
+    color:#371863;
+}
+
 footer{
     background-color: #1C1623;
     padding: 1rem 5rem;
 
 }
-a{
-    text-decoration: none;
+a, ion-icon{
+    text-decoration: none!important;
+    transition: ease 300ms;
 }
 
 @media (max-width:984px){
